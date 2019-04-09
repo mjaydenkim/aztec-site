@@ -29,9 +29,9 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+          <h2 className="major">Farmers</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>The farmers were by far the largest part of the Aztec social pyramid. They were divided into two subgroups, the field workers and a higher group. The field workers did the weeding, planting, and hoeing, irrigating, and more simple work. The higher-up class was more supervisory and did more complex things, including seeding and transplanting. Some Aztec farmers worked their own land, while others worked on estates and farmed other people's land. The serfs, the people who farmed other's land, were the lowest class in Aztec society besides the slaves. They didn't own land and paid up to 30% of their produce to their overlords. Farmers were also expected to help with the military during war and assist state projects like road and temple building.</p>
           {close}
         </article>
 

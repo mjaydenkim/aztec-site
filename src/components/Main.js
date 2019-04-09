@@ -37,7 +37,7 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Slaves</h2>
           <span className="image main"><img src={pic04} alt="" /></span>
           <p>The slaves were generally people who had committed serious crimes such as theft, conquered people, or people who were forced to sell themselves into slavery to gain back debt (generally because of gambling). Slaves could buy themselves free if they had the means, or could gain freedom in different ways. Slaves were required to farm as well as work as general laborers or domestic servants among other jobs. Slaves generally weren't re-sold and were protected by law from abuse by their masters or anyone else. Talented slaves could go higher up on the social ladder and become estate owners. Slavery was not in-born and just because your parent was one doesn't mean you have to be one, and slaves had much better rights. If slaves married their masters, could show their master mistreated them, or had children with them, they could be set free.</p>
           {close}

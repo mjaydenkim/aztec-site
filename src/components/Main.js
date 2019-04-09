@@ -5,6 +5,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
+import biblio from '../images/biblio.jpg'
 
 class Main extends React.Component {
   render() {
@@ -42,7 +43,17 @@ class Main extends React.Component {
           <p>The slaves were generally people who had committed serious crimes such as theft, conquered people, or people who were forced to sell themselves into slavery to gain back debt (generally because of gambling). Slaves could buy themselves free if they had the means, or could gain freedom in different ways. Slaves were required to farm as well as work as general laborers or domestic servants among other jobs. Slaves generally weren't re-sold and were protected by law from abuse by their masters or anyone else. Talented slaves could go higher up on the social ladder and become estate owners. Slavery was not in-born and just because your parent was one doesn't mean you have to be one, and slaves had much better rights. If slaves married their masters, could show their master mistreated them, or had children with them, they could be set free.</p>
           {close}
         </article>
-
+        <article id="biblio" className={`${this.props.article === 'biblio' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Bibliography</h2>
+          <span className="image main"><img src={biblio} alt="" /></span>
+          <a href="https://www.ancient.eu/article/845/aztec-society/">Ancient.eu</a>
+          <a href="http://tarlton.law.utexas.edu/aztec-and-maya-law/aztec-social-structure">Tarlton Law</a>
+          <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/Cuauhtemocmonmtezumaii.jpg">Nobility Image</a>
+          <a href="http://www.ancientpages.com/2016/07/06/slaves-aztec-empire-much-better-rights-ancient-society/">Ancient Pages</a>
+          <a href="http://4.bp.blogspot.com/-l-3Jl-XR0dc/TsQbXORWmrI/AAAAAAAAAuk/Q29DNYEmB8M/s320/TENO-AA-196.jpg">Farming Image</a>
+          <a href="https://www.theschoolrun.com%2Fhomework-help%2Fthe-aztecs&psig=AOvVaw1kteAQXstXTU28_vAqR7ce&ust=1554869111627237">BG Image</a>
+          {close}
+        </article>
       </div>
     )
   }

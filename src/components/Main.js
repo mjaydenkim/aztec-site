@@ -46,12 +46,12 @@ class Main extends React.Component {
         <article id="biblio" className={`${this.props.article === 'biblio' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Bibliography</h2>
           <span className="image main"><img src={biblio} alt="" /></span>
-          <a href="https://www.ancient.eu/article/845/aztec-society/">Ancient.eu</a>
-          <a href="http://tarlton.law.utexas.edu/aztec-and-maya-law/aztec-social-structure">Tarlton Law</a>
-          <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/Cuauhtemocmonmtezumaii.jpg">Nobility Image</a>
-          <a href="http://www.ancientpages.com/2016/07/06/slaves-aztec-empire-much-better-rights-ancient-society/">Ancient Pages</a>
-          <a href="http://4.bp.blogspot.com/-l-3Jl-XR0dc/TsQbXORWmrI/AAAAAAAAAuk/Q29DNYEmB8M/s320/TENO-AA-196.jpg">Farming Image</a>
-          <a href="https://www.theschoolrun.com%2Fhomework-help%2Fthe-aztecs&psig=AOvVaw1kteAQXstXTU28_vAqR7ce&ust=1554869111627237">BG Image</a>
+          <a href="https://www.ancient.eu/article/845/aztec-society/">Ancient.eu</a> <br/>
+          <a href="http://tarlton.law.utexas.edu/aztec-and-maya-law/aztec-social-structure">Tarlton Law</a> <br/>
+          <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/Cuauhtemocmonmtezumaii.jpg">Nobility Image</a> <br/>
+          <a href="http://www.ancientpages.com/2016/07/06/slaves-aztec-empire-much-better-rights-ancient-society/">Ancient Pages</a> <br/>
+          <a href="http://4.bp.blogspot.com/-l-3Jl-XR0dc/TsQbXORWmrI/AAAAAAAAAuk/Q29DNYEmB8M/s320/TENO-AA-196.jpg">Farming Image</a> <br/>
+          <a href="https://www.theschoolrun.com%2Fhomework-help%2Fthe-aztecs&psig=AOvVaw1kteAQXstXTU28_vAqR7ce&ust=1554869111627237">BG Image</a> <br/>
           {close}
         </article>
       </div>
